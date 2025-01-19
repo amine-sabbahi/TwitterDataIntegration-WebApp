@@ -53,7 +53,7 @@ services:
     ports:
       - '8080:8080'
       
-  spark-worker:
+  consumer:
     image: docker.io/bitnami/spark:3.5
     environment:
       - SPARK_MODE=worker
