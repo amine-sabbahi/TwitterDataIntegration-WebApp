@@ -2,3 +2,4 @@ kafka-python-ng
 pyspark
 pymongo
 pandas
+psycopg2-binary
