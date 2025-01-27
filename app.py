@@ -2,8 +2,10 @@ from flask import Flask, render_template, jsonify
 from bson import json_util
 import json
 from pymongo import MongoClient
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 client = MongoClient('mongodb://localhost:27017/')
 db = client.twitter_db
 collection = db.twitter_collection
