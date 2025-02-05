@@ -1,21 +1,21 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/front-end/node_modules
-/front-end/.pnp
-front-end.pnp.*
-front-end.yarn/*
-/front-end!.yarn/patches
-/front-end!.yarn/plugins
-/front-end!.yarn/releases
-/front-end!.yarn/versions
+/_front-end/node_modules
+/_front-end/.pnp
+_front-end.pnp.*
+_front-end.yarn/*
+/_front-end!.yarn/patches
+/_front-end!.yarn/plugins
+/_front-end!.yarn/releases
+/_front-end!.yarn/versions
 
 # testing
 /coverage
 
 # next.js
-/front-end/.next/
-/front-end/out/
+/_front-end/.next/
+/_front-end/out/
 
 # production
 /build
