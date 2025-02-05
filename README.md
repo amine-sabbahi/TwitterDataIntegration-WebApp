@@ -1,6 +1,12 @@
 # Twitter Data Integration Web App
 
-A real-time data processing and visualization platform that integrates Twitter data using Apache Kafka, Spark, PostgreSQL, MongoDB, and displays insights through a modern web interface built with Flask and Next.js.
+A real-time data processing and visualization platform that demonstrates semantic interoperability by integrating and transforming Twitter data across multiple systems. The architecture leverages Apache Kafka for streaming, Spark for processing, PostgreSQL and MongoDB for storage, with data seamlessly flowing between components through standardized formats and protocols. The insights are displayed through a modern web interface built with Flask and Next.js, showcasing end-to-end system integration and data interoperability.
+
+![upload](img/cartes.png)
+
+![upload](img/distribution.png)
+
+![upload](img/table.png)
 
 ## Project Architecture
 
